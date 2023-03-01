@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.movie {
+    width: 100%;
+    color: white;
+    /* shorthand notation
+     - UPS ROCA url, position/size, repeat, origin, clip, attachment
+     - Also it is possible to add two images one on anoter by specifying two image urls 
+    */
+
+    background: url("http://i.imgur.com/lcm5byq.png") 20px 20px/ 150px 218px no-repeat, 
+                url("http://i.imgur.com/2tiJEnP.png") 0% 0%/cover;
+    padding: 20px 20px 20px 190px;
+    box-sizing: border-box;
+}
+.movie p {
+    font-size: 1.5em;
+}
+.movie button {
+    display: block;
+    color: white;
+    font-size: 0.7em;
+    padding: 13px;
+    background-color: #eb383b;
+    margin-top: 40px;
+    border: 0;
+}
